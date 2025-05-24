@@ -1,0 +1,8 @@
+# config.yaml
+aws_region: ap-south-1
+key_pair_name: my-provisioner-key # Replace with your actual key pair name (or create one in AWS console)
+instance_type: t2.micro
+ami_id: ami-0f5ee92e2d634125b # Amazon Linux 2023 AMI in ap-south-1 (Mumbai) - Verify latest in your region!
+security_group_name: provisioner-sg
+security_group_description: Security group for automated EC2 provisioning
+instance_count: 1
